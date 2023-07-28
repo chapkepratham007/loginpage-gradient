@@ -1,0 +1,101 @@
+.grad{
+    height:100vh;
+    background-image:linear-gradient(to top right,rgb(10, 17, 220),rgb(195, 46, 70)); 
+}
+.form{
+    border:1px solid white;
+    border-radius:10px;
+    height:70vh;
+    width:80vh;
+    position:absolute;
+    top:15%;
+    right:30%;
+    background-color:white;
+}
+div>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    text-align:center;
+}
+.login-fb{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.facebook{
+    border:1px solid black;
+    /* height:40px; */
+    width:160px;
+    background-color: rgb(53, 53, 157);
+    color:white;
+    border-radius:4px;
+    padding:10px;
+    text-align: center;
+    cursor: pointer;
+}
+.facebook:hover{
+    scale: 1.1;
+}
+
+.google:hover{
+    scale: 1.1;
+}
+.google{
+    border:1px solid black;
+    /* height:40px; */
+    width:160px;
+    background-color:azure;
+    border-radius: 4px;;
+    padding:10px;
+    text-align:center;
+    cursor: pointer;
+}
+div>img{
+    height:15px;
+    margin-right:4px;
+}
+.google>img{
+    height:14px;
+}
+
+.form-flex{
+    margin-top: 60px;
+    align-items: center;
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+   
+}
+.form-flex input[type="email"]{
+height:30px;
+width:500px;
+border:none;
+border-bottom:1px solid black;
+outline:none;
+}
+.form-flex > .password{
+    height:30px;
+    width:500px;
+    border:none;
+    border-bottom:1px solid black;
+    outline:none;
+}
+.button{
+    width:500px;
+    height:40px;
+    /* background-color: rgb(230, 112, 15); */
+    background-color: crimson;
+    color:white;
+    border:hidden;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(255, 0, 51) ;
+}
+div>h4{
+    text-align: center;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight:100;
+}
